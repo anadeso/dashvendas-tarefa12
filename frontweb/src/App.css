@@ -1,0 +1,23 @@
+.main-container {
+  display: block;
+  flex-direction: column;
+  padding: 10px;
+}
+
+@media (min-width: 576px) {
+  .main-container {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-container {
+    padding: 40px 15px 50px 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-container {
+    padding: 40px 120px 50px 120px;
+  }
+}

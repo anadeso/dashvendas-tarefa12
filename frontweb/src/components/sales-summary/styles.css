@@ -1,0 +1,20 @@
+.sales-summary-container {
+  display: block;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.sales-summary-container-report {
+  height: 600px;
+}
+
+@media (min-width: 992px) {
+  .sales-summary-container-report {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
